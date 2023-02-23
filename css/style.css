@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(2, 2, 24);
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  list-style: none;
+  margin:  2rem;
+  font-size: 2rem;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 50%;
+  text-align: center;
+  background: white;
+  transition: all 0.5s ease;
+}
+
+li:hover{
+  cursor: pointer;
+  transform: translateY(-2.5rem);
+}
+
+li:first-child:hover{
+  background-color: red;
+  color: white;
+}
+
+li:nth-child(2):hover{
+  background-color: #4267B2;
+  color: white;
+}
+
+li:nth-child(4):hover{
+  background-color: #1DA1F2;
+  color: white;
+}
+
+li:nth-child(3):hover{
+  background-color: #25d366;
+  color: white;
+}
+
+li:last-child:hover{
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color: white;
+}
+
